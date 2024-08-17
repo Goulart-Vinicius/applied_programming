@@ -1,32 +1,50 @@
-# Prerequisites
-*.d
+# Ignorar diretórios de build
+/build/
+/cmake-build-*/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Ignorar arquivos e diretórios gerados pelo CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
+# Ignorar binários e artefatos de compilação
 *.exe
 *.out
-*.app
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+
+# Ignorar logs e arquivos temporários
+*.log
+
+# Ignorar arquivos de depuração e artefatos específicos de IDEs
+*.dSYM/
+*.stackdump
+.vscode/
+
+# Ignorar diretórios de build específicos de cada subprojeto
+aula_02/build/
+aula_02/cmake-build-*/
+aula_02/cmake-build-debug/
+entrega_exercicios_01/build/
+entrega_exercicios_01/cmake-build-*/
+entrega_exercicios_01/cmake-build-debug/
+lista_exercicios_01/build/
+lista_exercicios_01/cmake-build-*/
+lista_exercicios_01/cmake-build-debug/
+
+.idea
+
+Entraga_exercicios_01/cmake-build-debug/
+
+aula2/cmake-build-debug/
+
+aula2/CMakeLists.txt
+
+lista_exercicios_01/CMakeLists.txt
+
+Entraga_exercicios_01/CMakeLists.txt
